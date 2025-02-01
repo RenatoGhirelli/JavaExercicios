@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Soma {
+    public static void main(String[] args) {
+        int Soma = 5 +10;
 
-public class Estudos {
+        System.out.println(Soma);
+    }
 }
