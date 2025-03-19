@@ -23,7 +23,7 @@ public class GoogleBooks {
         String busca = sc.nextLine();
         String buscaFormat = busca.replace(" ", "+");
 
-        String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + busca ;
+        String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + buscaFormat.toLowerCase();
 
         HttpClient client = HttpClient.newHttpClient();
 
